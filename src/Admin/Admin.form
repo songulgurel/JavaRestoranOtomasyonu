@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="AnaPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="AnaPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="AnaPanel">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Uye">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#xdc;ye &#x130;&#x15f;lemleri">
+                <Property name="tabTitle" type="java.lang.String" value="&#xdc;ye &#x130;&#x15f;lemleri"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="UyeListe" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="idLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="soyadgir" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="sifregir" min="-2" pref="200" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="adresgir" min="-2" pref="177" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cvvgir" min="-2" pref="75" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="sktLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="sktgir" min="-2" pref="75" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="adgir" min="-2" pref="120" max="-2" attributes="0"/>
+                                          <Component id="adLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="soyadLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="idgir" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="mailLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="mailgir" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="sifreLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="telnoLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="telgir" min="-2" pref="177" max="-2" attributes="0"/>
+                                          <Component id="adresLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="kartNogir" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="cvvLabel" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                                                  <Component id="kartnoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="49" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="UyeSil" min="-2" pref="76" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="UyeGuncelle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="UyeEkle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                              <Component id="UyeGosterButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="UyeSıfırla" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="UyeListeGoster" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="idLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="idgir" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="kartnoLabel" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="telnoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="adLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="adgir" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="soyadLabel" min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="mailgir" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="telgir" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="kartNogir" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="sifreLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="adresLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="cvvLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sktLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="soyadgir" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sifregir" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="adresgir" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cvvgir" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sktgir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                      <Component id="UyeListe" min="-2" pref="300" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="UyeGuncelle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="UyeEkle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="UyeSil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="UyeListeGoster" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="UyeSıfırla" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="UyeGosterButton" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="UyeListe">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="UyeTablo">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="10" rowCount="4">
+                        <Column editable="true" title="Id" type="java.lang.Object"/>
+                        <Column editable="true" title="Ad" type="java.lang.Object"/>
+                        <Column editable="true" title="Soyad" type="java.lang.Object"/>
+                        <Column editable="true" title="Mail" type="java.lang.Object"/>
+                        <Column editable="true" title="TelNo" type="java.lang.Object"/>
+                        <Column editable="true" title="Adres" type="java.lang.Object"/>
+                        <Column editable="true" title="&#x15e;ifre" type="java.lang.Object"/>
+                        <Column editable="true" title="KartNo" type="java.lang.Object"/>
+                        <Column editable="true" title="SKT" type="java.lang.Object"/>
+                        <Column editable="true" title="Cvv" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="UyeSil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xdc;ye Sil"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UyeSilActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UyeGuncelle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="G&#xfc;ncelle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UyeGuncelleActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UyeEkle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xdc;ye Ekle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UyeEkleActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UyeListeGoster">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xdc;ye Listesini G&#xf6;ster"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UyeListeGosterActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UyeGosterButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xdc;ye Bilgisini G&#xf6;ster"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UyeGosterButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UyeS&#x131;f&#x131;rla">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S&#x131;f&#x131;rla"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UyeS&#x131;f&#x131;rlaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="idgir">
+            </Component>
+            <Component class="javax.swing.JTextField" name="adgir">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adgirActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="soyadgir">
+            </Component>
+            <Component class="javax.swing.JTextField" name="mailgir">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mailgirActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="telgir">
+            </Component>
+            <Component class="javax.swing.JTextField" name="adresgir">
+            </Component>
+            <Component class="javax.swing.JTextField" name="sifregir">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sifregirActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="kartNogir">
+            </Component>
+            <Component class="javax.swing.JTextField" name="sktgir">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sktgirActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="cvvgir">
+            </Component>
+            <Component class="javax.swing.JLabel" name="adLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ad"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="soyadLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Soyad"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mailLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mail"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sifreLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x15e;ifre"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="telnoLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Telefon Numaras&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="adresLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Adres"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="kartnoLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kart Numaras&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cvvLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cvv"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sktLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Skt"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="idLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Id"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Menu">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Men&#xfc; &#x130;&#x15f;lemleri">
+                <Property name="tabTitle" type="java.lang.String" value="Men&#xfc; &#x130;&#x15f;lemleri"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="UrunListe" min="-2" pref="635" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="idgirisi" alignment="0" min="-2" pref="71" max="-2" attributes="0"/>
+                                  <Component id="urunidLabel" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="urungirisi" min="-2" pref="71" max="-2" attributes="0"/>
+                                  <Component id="urunadLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="fiyatgirisi" min="-2" pref="71" max="-2" attributes="0"/>
+                                  <Component id="urunfiyatLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="kategoriSec" min="-2" max="-2" attributes="0"/>
+                                  <Component id="urunkategoriLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="40" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="MenuGosterButton" max="32767" attributes="0"/>
+                          <Component id="UrunSil" max="32767" attributes="0"/>
+                          <Component id="UrunGoster" max="32767" attributes="0"/>
+                          <Component id="UrunEkle" max="32767" attributes="0"/>
+                          <Component id="UrunGuncelle" max="32767" attributes="0"/>
+                          <Component id="Sıfırla" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="urunidLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="urunadLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="urunfiyatLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="urunkategoriLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MenuGosterButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="urungirisi" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fiyatgirisi" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="kategoriSec" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="idgirisi" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="UrunSil" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="UrunGuncelle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="UrunEkle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Component id="UrunGoster" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="Sıfırla" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="22" max="32767" attributes="0"/>
+                              <Component id="UrunListe" min="-2" pref="340" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="UrunListe">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="UrunTablo">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="false" title="&#xdc;r&#xfc;nID" type="java.lang.Object"/>
+                        <Column editable="false" title="&#xdc;r&#xfc;n" type="java.lang.Object"/>
+                        <Column editable="false" title="Fiyat" type="java.lang.Object"/>
+                        <Column editable="false" title="Kategori" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="MenuGosterButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Men&#xfc; G&#xf6;ster"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuGosterButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UrunSil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n Sil"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UrunSilActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UrunGoster">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="G&#xf6;ster"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UrunGosterActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="urungirisi">
+            </Component>
+            <Component class="javax.swing.JTextField" name="fiyatgirisi">
+            </Component>
+            <Component class="javax.swing.JComboBox" name="kategoriSec">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="8">
+                    <StringItem index="0" value="Kahvalt&#x131;"/>
+                    <StringItem index="1" value="Kebaplar"/>
+                    <StringItem index="2" value="&#xc7;orbalar"/>
+                    <StringItem index="3" value="Mezeler"/>
+                    <StringItem index="4" value="Salatalar"/>
+                    <StringItem index="5" value="Ara S&#x131;caklar"/>
+                    <StringItem index="6" value="Tatl&#x131;lar"/>
+                    <StringItem index="7" value="&#x130;&#xe7;ecekler"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="UrunEkle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n Ekle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UrunEkleActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UrunGuncelle">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="G&#xfc;ncelle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UrunGuncelleActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="idgirisi">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="S&#x131;f&#x131;rla">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S&#x131;f&#x131;rla"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="S&#x131;f&#x131;rlaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="urunidLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Id"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="urunadLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n Ad&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="urunfiyatLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fiyat"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="urunkategoriLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kategori"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
