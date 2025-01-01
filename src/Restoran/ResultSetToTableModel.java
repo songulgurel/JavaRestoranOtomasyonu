@@ -1,9 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Restoran;
-
 
 import com.mysql.cj.jdbc.result.ResultSetMetaData;
 import java.sql.ResultSet;
@@ -11,10 +6,6 @@ import java.sql.SQLException;
 import java.util.Vector;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author Volkan
- */
 public class ResultSetToTableModel {
     public static DefaultTableModel resultSetToTableModel(ResultSet rs) throws SQLException {
         // Tabloyu oluşturmak için ResultSet'den verileri al

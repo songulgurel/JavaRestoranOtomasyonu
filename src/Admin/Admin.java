@@ -455,7 +455,6 @@ public class Admin extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void SıfırlaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SıfırlaActionPerformed
-        // TODO add your handling code here:
         idgirisi.setText("");
         urungirisi.setText("");
         fiyatgirisi.setText("");
@@ -477,7 +476,6 @@ public class Admin extends javax.swing.JFrame {
     }//GEN-LAST:event_UrunGosterActionPerformed
 
     private void UrunSilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UrunSilActionPerformed
-        // TODO add your handling code here:
         int selectedRow = UrunTablo.getSelectedRow();
         if (selectedRow != -1) {
             int ID = (int) UrunTablo.getValueAt(selectedRow, 0);
@@ -505,7 +503,6 @@ public class Admin extends javax.swing.JFrame {
     }//GEN-LAST:event_adgirActionPerformed
 
     private void UyeSıfırlaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UyeSıfırlaActionPerformed
-        // TODO add your handling code here:
         adgir.setText("");
         soyadgir.setText("");
         mailgir.setText("");
